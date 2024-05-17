@@ -12,12 +12,12 @@ command line interface(CLI)e.g. SQLplus
 //In oracle ; at the end of line is mandatory
 //In mysql database also called schema
 ---------------------------------------------------------------------------------
-//Types of SQL Commands
+//Types of SQL Commands..?
+//Types of SQL queries..?
 
 DDL(Data Defination Language): create , alter , rename , truncate & drop 
 DQL(Data Query Language)/DRL(Data Retrieval Language):: Select
-
-DML(Data Manipulation Language): insert, update & delete
+DML(Data Manipulation Language): insert , update & delete
 DCL(Data Control Language): grant & revoke permission to users
 TCL(Transaction Control Language): start Transaction , commit , rollback , 
 save point etc.

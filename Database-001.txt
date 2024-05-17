@@ -1,8 +1,10 @@
-
-
-
--------------------------------------------------------------------------------------
-
+------------------------------------------------------------------------------------------
+SHOW DATABASES ;
+USE db_name;
+SHOW tables ;
+DESCRIBE table_name ;
+SELECT * FROM table_name ;
+command line client:  \! cls for clearing screen
 
 
 --------------------------------------------------------------------------------------
@@ -54,7 +56,7 @@ it prevent actions that would destroy links between tables..
 
 //Default:- Sets the default value of column..
 //Check:-  It can limit the values allowed in column.. 
--------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
 //Constraints:-
 SQL constraints are used to specify rules for data in table..
 NOT NULL    ---> columns can't have null value      ---> example:- column1 int NOT NULL
@@ -147,6 +149,7 @@ DELETE FROM table_name
 WHERE condition ;
 ---------------------------------------------------------------------------------
 Cascading for FK:-
+
 //On Delete Cascade 
 When we create foreign key using this option , it deletes the referencing rows in the 
 child table when the referenced row is deleted in the parent table which 
@@ -183,7 +186,7 @@ TRUNCATE table table_name ;
 //Joins in SQL
 Join is used to combine rows from two or more tables , based on a related column 
 between them..
----------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
 //Inner Join
 Returns records that have matching values in both tables..
 
@@ -242,9 +245,10 @@ A differential back up only backs up the parts of the database that have changed
 
 SELECT column1, column2, ...
 FROM table_name;
-------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
 SOQL (Salesforce Object Query Language) is query language used in Salesforce to retrieve data from
 the Salesforce database. SOQL queries are Similar to SQL (Structure Query Language) queries but are specifically
 designed for querying Salesforce Objects.
 Query syntax:-
 SELECT <List Of Fields> FROM <Object API Name> WHERE <Filter Condition>
+---------------------------------------------------------------------------------------------
